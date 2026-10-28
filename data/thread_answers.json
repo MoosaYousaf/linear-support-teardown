@@ -1,0 +1,114 @@
+[
+ {
+  "number": 765,
+  "type": "how_to",
+  "verdict": "not_covered",
+  "staff_replies": 2,
+  "first_staff_reply": "<p><a href=\"https://linear.app/linear/issue/LIN-38922/sdk-support-to-fetch-an-issue-by-its-issue-id\">LIN-38922 SDK - support to fetch an issue by it's `issue ID`?</a></p>"
+ },
+ {
+  "number": 828,
+  "type": "docs_gap",
+  "verdict": "contradicted",
+  "staff_replies": 6,
+  "first_staff_reply": "<p><a href=\"https://linear.app/linear/issue/LIN-40478/linearwebhookclient-usage-example-with-express-is-incorrect\">LIN-40478 LinearWebhookClient usage example with Express is incorrect</a></p>"
+ },
+ {
+  "number": 842,
+  "type": "how_to",
+  "verdict": "partial",
+  "staff_replies": 4,
+  "first_staff_reply": "<p><a href=\"https://linear.app/linear/issue/LIN-40877/can-it-be-used-in-any-language\">LIN-40877 Can it be used in any language?</a></p>"
+ },
+ {
+  "number": 883,
+  "type": "docs_gap",
+  "verdict": "contradicted",
+  "staff_replies": 2,
+  "first_staff_reply": "<p><a href=\"https://linear.app/linear/issue/LIN-42235/the-e-of-email-should-be-capitalized-to-e\">LIN-42235 The \"e\" of email should be capitalized to \"E\"</a></p>"
+ },
+ {
+  "number": 891,
+  "type": "docs_gap",
+  "verdict": "partial",
+  "staff_replies": 3,
+  "first_staff_reply": "<p><a href=\"https://linear.app/linear/issue/LIN-42708/the-e-of-email-should-be-capitalized-to-e\">LIN-42708 The \"e\" of email should be capitalized to \"E</a></p>"
+ },
+ {
+  "number": 895,
+  "type": "how_to",
+  "verdict": "partial",
+  "staff_replies": 2,
+  "first_staff_reply": "<p><a href=\"https://linear.app/linear/issue/LIN-43422/403-on-issuecreate-with-create-issues-permission\">LIN-43422</a></p>"
+ },
+ {
+  "number": 896,
+  "type": "how_to",
+  "verdict": "partial",
+  "staff_replies": 1,
+  "first_staff_reply": "<p><a href=\"https://linear.app/linear/issue/LIN-43595/apolo-graphql-mcp-server\">LIN-43595</a></p>"
+ },
+ {
+  "number": 939,
+  "type": "how_to",
+  "verdict": "partial",
+  "staff_replies": 1,
+  "first_staff_reply": "Hi! It should be the same thing. What are you looking to query here?   Some more docs on how our Attachment model works:   - https://linear.app/developers/attachments - https://studio.apollographql.com/public/Linear-API/variant/current/schema/reference/objects"
+ },
+ {
+  "number": 1000,
+  "type": "how_to",
+  "verdict": "not_covered",
+  "staff_replies": 2,
+  "first_staff_reply": "<!-- linear-linkback --> <p><a href=\"https://linear.app/linear/issue/LIN-56011/import-linear-csv-keep-importing-user-as-issue-creator\">LIN-56011</a></p>"
+ },
+ {
+  "number": 1043,
+  "type": "how_to",
+  "verdict": "partial",
+  "staff_replies": 2,
+  "first_staff_reply": "<!-- linear-linkback --> <p><a href=\"https://linear.app/linear/issue/LIN-59784/need-reliable-way-to-list-all-linear-issue-attachments-with-metadata\">LIN-59784</a></p>"
+ },
+ {
+  "number": 1047,
+  "type": "how_to",
+  "verdict": "answered",
+  "staff_replies": 1,
+  "first_staff_reply": "<!-- linear-linkback --> <p><a href=\"https://linear.app/linear/issue/LIN-60450/the-minimal-fields-list-to-import-issues-using-csv-file\">LIN-60450</a></p>"
+ },
+ {
+  "number": 1066,
+  "type": "docs_gap",
+  "verdict": "not_covered",
+  "staff_replies": 1,
+  "first_staff_reply": "<!-- linear-linkback --> <p><a href=\"https://linear.app/linear/issue/LIN-62741/graphql-docs-clarify-that-issuefilter-does-not-support-issue\">LIN-62741</a></p>"
+ },
+ {
+  "number": 1077,
+  "type": "how_to",
+  "verdict": "partial",
+  "staff_replies": 2,
+  "first_staff_reply": "<!-- linear-linkback --> <p><a href=\"https://linear.app/linear/issue/LIN-64099/issue-with-linking-github-issues-to-original-repositories-in-linear\">LIN-64099</a></p>"
+ },
+ {
+  "number": 1107,
+  "type": "docs_gap",
+  "verdict": "not_covered",
+  "staff_replies": 1,
+  "first_staff_reply": "<!-- linear-linkback --> <p><a href=\"https://linear.app/linear/issue/LIN-67543/linear-import-readme-typo\">LIN-67543</a></p>"
+ },
+ {
+  "number": 1116,
+  "type": "docs_gap",
+  "verdict": "not_covered",
+  "staff_replies": 1,
+  "first_staff_reply": "<!-- linear-linkback --> <p><a href=\"https://linear.app/linear/issue/LIN-67883/inconsistent-usage-of-canceled-vs-cancelled\">LIN-67883</a></p>"
+ },
+ {
+  "number": 1146,
+  "type": "how_to",
+  "verdict": "partial",
+  "staff_replies": 1,
+  "first_staff_reply": "<!-- linear-linkback --> <p><a href=\"https://linear.app/linear/issue/LIN-70221\">LIN-70221</a></p>"
+ }
+]

@@ -1,0 +1,212 @@
+[
+ {
+  "number": 750,
+  "verdict": "not_covered",
+  "evidence_url": "",
+  "evidence_quote": "",
+  "missing": "Docs would need to mention whether a Den (getden.io) integration exists or is planned; none of the excerpts reference Den."
+ },
+ {
+  "number": 758,
+  "verdict": "partial",
+  "evidence_url": "https://linear.app/developers/advanced-usage",
+  "evidence_quote": "The LinearGraphQLClient can be configured by passing the RequestInit object to the Linear Client constructor",
+  "missing": "Docs don't explain why MSW doesn't intercept SDK requests in Node, nor document a custom fetch or apiUrl option for mocking in tests."
+ },
+ {
+  "number": 764,
+  "verdict": "not_covered",
+  "evidence_url": "",
+  "evidence_quote": "",
+  "missing": "Docs would need to describe the MCP list_issues/list_my_issues tool parameters and whether they can filter by status or status type to exclude completed issues."
+ },
+ {
+  "number": 765,
+  "verdict": "partial",
+  "evidence_url": "https://linear.app/developers/graphql",
+  "evidence_quote": "Linear SDK exposes the Linear GraphQL schema, and makes it easy to access models, or perform mutations.",
+  "missing": "Docs never show how to fetch a single issue by its human-readable identifier (e.g. ENG-123) via the SDK or GraphQL issue query."
+ },
+ {
+  "number": 827,
+  "verdict": "partial",
+  "evidence_url": "https://linear.app/docs/gitlab",
+  "evidence_quote": "Another option is to export GitLab issues to a CSV and then modify the headers and format so that it matches one of the issue trackers supported by the CLI.",
+  "missing": "Explain how to convert GitLab's second-based estimates to Linear's estimate scales (max 64 on extended exponential) and note that the CLI importer doesn't convert units automatically."
+ },
+ {
+  "number": 840,
+  "verdict": "partial",
+  "evidence_url": "https://linear.app/docs/github",
+  "evidence_quote": "Branch rules apply only to target branches\u2014the branch a PR is being merged into .",
+  "missing": "Docs confirm per-target-branch automation is supported but don't explain what happens (or that no status update fires) when a PR's destination branch is changed after opening."
+ },
+ {
+  "number": 883,
+  "verdict": "contradicted",
+  "evidence_url": "https://linear.app/docs/login-methods",
+  "evidence_quote": "When selecting Continue with Email as the login option, an email will be sent to your inbox",
+  "missing": "The docs already capitalize it as 'Continue with Email'; the button label itself is a UI matter and the docs would only need to match whatever the UI shows."
+ },
+ {
+  "number": 963,
+  "verdict": "partial",
+  "evidence_url": "https://linear.app/developers/how-to-upload-a-file-to-linear",
+  "evidence_quote": "The image file at https://example.com/image.png will be automatically uploaded to Linear\u2019s private cloud storage.",
+  "missing": "Docs need to list which image formats (e.g., webp) are supported for markdown image URLs in issueCreate and describe the error returned when an unsupported format is used."
+ },
+ {
+  "number": 973,
+  "verdict": "not_covered",
+  "evidence_url": "",
+  "evidence_quote": "",
+  "missing": "Document the Trello importer's handling of images/attachments, including why 'Unable to download file' and 'Unsupported file type PNG' errors occur and how to resolve them."
+ },
+ {
+  "number": 1000,
+  "verdict": "partial",
+  "evidence_url": "https://linear.app/docs/cli-importer",
+  "evidence_quote": "Assignee - Issue assignee (user\u2019s full name)",
+  "missing": "State whether the CLI/CSV importer can set the original creator (the essential fields list has no Creator column) and that issues are attributed to the importing user."
+ },
+ {
+  "number": 1011,
+  "verdict": "partial",
+  "evidence_url": "https://linear.app/docs/get-the-app",
+  "evidence_quote": "Universal links can be configured from the browser version Account > Preferences > Behavior > Open in desktop app .",
+  "missing": "Docs don't explain how macOS Universal Links/associated-domains work or state whether https://linear.app links open the desktop app natively (they only describe the localhost port check and the linear:// protocol)."
+ },
+ {
+  "number": 1020,
+  "verdict": "not_covered",
+  "evidence_url": "",
+  "evidence_quote": "",
+  "missing": "Docs would need to state that the API normalizes markdown links (wrapping URLs in angle brackets) when returning descriptions, and whether this is intended."
+ },
+ {
+  "number": 1033,
+  "verdict": "partial",
+  "evidence_url": "https://linear.app/docs/inbox",
+  "evidence_quote": "You can also set issue reminders for an issue, document, project or initiative and receive a notification to your Inbox at the selected time.",
+  "missing": "Docs describe reminders only in the UI and never say whether they are exposed through the GraphQL API or MCP tools for create/update/delete."
+ },
+ {
+  "number": 1042,
+  "verdict": "partial",
+  "evidence_url": "https://linear.app/docs/cli-importer",
+  "evidence_quote": "The essential fields are:",
+  "missing": "The CLI importer's CSV column list has no relation columns, and the docs don't explicitly say whether blocks/blocked-by relations can or cannot be set during CSV/CLI import."
+ },
+ {
+  "number": 1043,
+  "verdict": "partial",
+  "evidence_url": "https://linear.app/developers/attachments",
+  "evidence_quote": "Attachment URL is used as an idempotent value if used in conjunction with the same issue id",
+  "missing": "Docs cover querying attachments (link-style) but not how to list files uploaded in issue descriptions or comments with size, content type, filename and download URL via the API."
+ },
+ {
+  "number": 1049,
+  "verdict": "not_covered",
+  "evidence_url": "",
+  "evidence_quote": "",
+  "missing": "Docs would need to explain troubleshooting for the MCP server returning -32602 'Tool not found' for tools listed by tools/list (e.g., update_issue availability, read-only endpoint, or scopes)."
+ },
+ {
+  "number": 1060,
+  "verdict": "not_covered",
+  "evidence_url": "",
+  "evidence_quote": "",
+  "missing": "Document the MCP get_issue includeRelations parameter, how blockedBy treats completed/removed/converted relations, and how to identify active blockers (e.g., by blocker status)."
+ },
+ {
+  "number": 1066,
+  "verdict": "not_covered",
+  "evidence_url": "",
+  "evidence_quote": "",
+  "missing": "Docs need to state that IssueFilter has no identifier filter and show how to look up an issue by identifier like ANI-14 (e.g. issue(id:) accepting identifiers or filtering by team key and number)."
+ },
+ {
+  "number": 1073,
+  "verdict": "not_covered",
+  "evidence_url": "",
+  "evidence_quote": "",
+  "missing": "Docs would need to list the MCP server's available tools and state whether adding subscribers (including at issue creation/bulk creation) is supported."
+ },
+ {
+  "number": 1094,
+  "verdict": "not_covered",
+  "evidence_url": "",
+  "evidence_quote": "",
+  "missing": "The MCP docs would need to document the update_issue tool's parameters, including whether status accepts a state name or only a workflow state UUID."
+ },
+ {
+  "number": 1136,
+  "verdict": "partial",
+  "evidence_url": "https://linear.app/docs/releases",
+  "evidence_quote": "- uses: linear/linear-release-action@v0",
+  "missing": "The docs show only version-tag pinning (@v0, @v4) and never say whether pinning to full commit SHAs is supported or recommended, nor mention any @master references."
+ },
+ {
+  "number": 1193,
+  "verdict": "partial",
+  "evidence_url": "https://linear.app/docs/display-options",
+  "evidence_quote": "Parent issue grouping and sub-grouping are available only in board layout. In list layout, use Nested sub-issues to display sub-issues beneath their parents instead.",
+  "missing": "Docs don't say whether sub-issues can be kept directly under their parent within the same status column on a board (grouped by status); only parent-issue grouping/sub-grouping is described."
+ },
+ {
+  "number": 1198,
+  "verdict": "partial",
+  "evidence_url": "https://linear.app/docs/code-and-reviews",
+  "evidence_quote": "Terminal-based tools require the Linear desktop app on a supported platform, because Linear needs to launch a local terminal.",
+  "missing": "Docs don't say whether opening issues in Codex (or other coding tools) works from the iOS and Android apps, or that it's unsupported there."
+ },
+ {
+  "number": 1206,
+  "verdict": "not_covered",
+  "evidence_url": "",
+  "evidence_quote": "",
+  "missing": "Docs would need to state whether table column widths are exposed via the API/MCP and whether they are preserved when document content is updated programmatically."
+ },
+ {
+  "number": 1221,
+  "verdict": "partial",
+  "evidence_url": "https://linear.app/docs/filters",
+  "evidence_quote": "The Added to cycle filter is different from Cycle.",
+  "missing": "Docs describe rollover and an Added to cycle filter (Planned/After cycle) but don't say whether any filter identifies issues auto-rolled over from the previous cycle."
+ },
+ {
+  "number": 1236,
+  "verdict": "not_covered",
+  "evidence_url": "",
+  "evidence_quote": "",
+  "missing": "Document MCP tool pagination limits, including why list_projects is capped at 50 versus 250 for other list tools, and whether it can be raised."
+ },
+ {
+  "number": 1237,
+  "verdict": "not_covered",
+  "evidence_url": "",
+  "evidence_quote": "",
+  "missing": "Docs would need to state whether MCP tools can list or apply issue and project templates when creating issues/projects, and whether this requires the GraphQL API."
+ },
+ {
+  "number": 1245,
+  "verdict": "not_covered",
+  "evidence_url": "",
+  "evidence_quote": "",
+  "missing": "MCP docs would need to list available label tools and state that label descriptions can't be updated via MCP (or how to do it via the GraphQL API instead)."
+ },
+ {
+  "number": 1248,
+  "verdict": "not_covered",
+  "evidence_url": "",
+  "evidence_quote": "",
+  "missing": "The MCP docs would need to list the available tools and state whether label retire/restore (issue, project, initiative labels) is supported."
+ },
+ {
+  "number": 1281,
+  "verdict": "partial",
+  "evidence_url": "https://linear.app/docs/custom-views",
+  "evidence_quote": "Create durable filtered views of issues, projects, or initiatives",
+  "missing": "Docs show views are separate per type (Issue, Project, Initiative) and don't state that one view cannot mix them or offer a single way to see everything you own across all levels."
+ }
+]

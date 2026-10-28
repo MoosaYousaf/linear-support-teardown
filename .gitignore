@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+# Linear content and raw user posts stay out of the public repo; the scripts re-download them.
+data/docs/
+data/schema.graphql
+data/sitemap.xml
+data/questions/github_issues.jsonl
